@@ -1,0 +1,134 @@
+html,body{
+    margin: 0;
+    width:100%;
+    
+}
+table{
+   
+   text-align: center;
+   margin:0 auto;
+   padding: 0;
+   border-spacing: 0;
+}
+td{
+    padding: 0;
+
+}
+.line{
+    height: 5px;
+    width: 650px;
+    background: #025AB4;
+}
+.half_rect{
+    background: linear-gradient(45deg,#F9F9F9 50%,#025AB4 50%);
+    height: 38px;
+    
+}
+.header_picture{
+    height: 98px;
+    background-color: #F9F9F9;
+    
+}
+.header_img{
+    width: 398px;
+    padding: 0 126px;
+}
+tbody{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    color: var(--ash, var(--ash, #676A6A));
+}
+.text_1{
+    margin: 41px 0 0 0 ;
+    padding: 0 0 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_2{
+    margin:0;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.text_3{
+    margin: 0;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.text_4{
+    display: inline-block;
+    background: var(--blue, #025AB4);
+    padding: 15px 30px;
+    margin:18px 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.text_5{
+    margin: 0 0 41px 0;
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 150%;
+}
+tfoot{
+    background-color: #025AB4;
+    color: #FFF;
+    text-align: center;
+   
+}
+.footer_social_links{
+    display: flex; 
+    justify-content: center;
+}
+.social_media_wrapper{
+    height: 42px;
+    width: 42px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 21.13px 16.59px 14.87px 16.59px;
+}
+.footer_nav_bar a{
+    display: inline-block;
+     font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.254px;
+    text-decoration: none;
+    margin:8px ;
+    color: #FFF;
+}
+span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 157.836%; 
+    padding: 18px 7px ;
+}
+.footer_adress{
+    font-size: 20px;
+    font-weight: 600;
+    line-height:  32px;
+    padding: 16px 0;
+}
+.footer_terms{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px 0;
+}
+.footer_email{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 16px 0 39px 0;
+}
+.user_email{
+    text-decoration: underline;
+}
